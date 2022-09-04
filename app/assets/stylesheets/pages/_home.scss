@@ -1,1 +1,50 @@
 // Specific CSS for your home-page
+.background {
+  background-size: 100% 100%;
+  background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+  background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),
+  radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),
+  radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),
+  radial-gradient(74% 86% at 67% 38%, #CEFAFFFF 0%, #FFC094FF 96%);
+  height: 100%;
+}
+
+.container {
+  padding: 100px 75px;
+  display: flex;
+  align-content: space-between;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: $headers-font;
+  line-height: 1.2;
+  width: 30rem;
+  margin:50px;
+  padding: 92px;
+  border-radius: 20px;
+  box-shadow:  28px 28px 55px #d9d9d9,
+             -28px -28px 55px #ffffff;
+  background-color: rgba($color: white, $alpha: 0.4);
+  margin: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  text-align: right;
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+  font-family: $body-font;
+  font-size: 18px;
+  width: 25rem;
+  align-self: flex-end;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow:  28px 28px 55px #d9d9d9,
+             -28px -28px 55px #ffffff;
+  background-color: rgba($color: white, $alpha: 0.4);
+}
